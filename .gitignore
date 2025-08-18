@@ -1,0 +1,29 @@
+# Compilados Java
+*.class
+
+# Diretórios de build
+/bin/
+/build/
+/out/
+
+# Arquivos de log
+*.log
+
+# Banco de dados SQLite
+*.db
+
+# Configurações de IDEs
+*.iml
+.idea/
+*.swp
+*.swo
+.vscode/
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.old
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
