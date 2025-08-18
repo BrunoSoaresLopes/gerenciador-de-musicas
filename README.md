@@ -54,8 +54,8 @@ docker run -it gerenciador-musicas
 ### Executar Manualmente
 - Abra o projeto no seu compilador (utilizei o Eclipse)
 
-- Adicione o driver do SQLite
-  No Eclipse vá em project -> properties -> Java Build Path -> Libraries -> clique em Modulepath -> Add External JARs ->      selecione o . jar da pasta lib, aplique e feche.
+- **Adicione o driver do SQLite**
+- No Eclipse vá em project -> properties -> Java Build Path -> Libraries -> clique em Modulepath -> Add External JARs ->      selecione o . jar da pasta lib, aplique e feche.
   
 - Execute a classe view.MenuPrincipal
 
