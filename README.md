@@ -25,7 +25,7 @@ O recurso escolhido foi **Música**, com as seguintes propriedades:
 
 ## Tecnologias Utilizadas
 
-- **Java 21**
+- **Java**
 - **SQLite** como banco de dados
 - **Docker** para conteinerização
 - Interface via **linha de comando**
@@ -35,10 +35,10 @@ O recurso escolhido foi **Música**, com as seguintes propriedades:
 ## Instalação e Execução
 
 ### Requisitos
-
-- Java 21 instalado
 - Docker (opcional)
+- JDK 21 (Java Development Kit)
 - SQLite JDBC Driver (`sqlite-jdbc-3.50.3.0.jar`)
+Essas foram as versões utilizadas, mas também pode funcionar em outras.
 
 ### Banco de Dados
 - A aplicação utiliza **SQLite** como banco de dados embutido, conforme exigido pelo case técnico.
@@ -52,8 +52,11 @@ docker build -t gerenciador-musicas .
 docker run -it gerenciador-musicas
 
 ### Executar Manualmente
-- Compile os arquivos .java com o JAR do SQLite
+- Abra o projeto no seu compilador (utilizei o Eclipse)
 
+- Adicione o driver do SQLite
+  No Eclipse vá em project -> properties -> Java Build Path -> Libraries -> clique em Modulepath -> Add External JARs ->      selecione o . jar da pasta lib, aplique e feche.
+  
 - Execute a classe view.MenuPrincipal
 
 ### Funcionalidades
