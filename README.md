@@ -75,7 +75,7 @@ docker run -it gerenciador-musicas
 - Datas devem seguir o formato DD/MM/YYYY
 
 ### Dockerfile
-- Incluído na raiz do projeto. Ele compila o código, copia o banco musicas.db e executa a aplicação automaticamente.
+- Incluído na raiz do projeto. Ele compila o código, copia o banco musica.db e executa a aplicação automaticamente.
 
 ### Logs
 - **Arquivo logs/app.log registra:**
