@@ -52,11 +52,11 @@ docker build -t gerenciador-musicas .
 docker run -it gerenciador-musicas
 
 ### Executar Manualmente
-# Com CMD
+#### Com CMD
 javac -cp ".;lib\sqlite-jdbc-3.50.3.0.jar" src\dao\MusicaDAO.java src\database\Conexao.java src\database\Inicializador.java src\model\Musica.java src\view\MenuPrincipal.java 
 java -cp ".;lib\sqlite-jdbc-3.50.3.0.jar;src" view.MenuPrincipal
 
-# Com compilador
+#### Com compilador
 - Abra o projeto no seu compilador (utilizei o Eclipse)
 
 - No Eclipse vá em project -> properties -> Java Build Path -> Libraries -> clique em Modulepath -> Add External JARs ->      selecione o . jar da pasta lib, aplique e feche.
