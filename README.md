@@ -10,8 +10,8 @@
 ## Recurso Escolhido
 O recurso escolhido foi **Música**, com as seguintes propriedades:
 
-| Propriedade        | Tipo       | Obrigatório   | Descrição                                        |
-|--------------------|------------|---------------|--------------------------------------------------|
+| Propriedade        | Tipo       | Obrigatório   | Descrição                                       |
+|--------------------|------------|---------------|-------------------------------------------------|
 | `id`               | Inteiro    | ✅ Automático | Identificador único da música                  |
 | `titulo`           | String     | ✅ Sim        | Nome da música                                 |
 | `artista`          | String     | ✅ Sim        | Nome do artista ou banda                       |
