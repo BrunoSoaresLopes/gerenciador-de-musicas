@@ -54,6 +54,7 @@ docker run -it gerenciador-musicas
 ### Executar Manualmente
 #### Com CMD
 javac -cp ".;lib\sqlite-jdbc-3.50.3.0.jar" src\dao\MusicaDAO.java src\database\Conexao.java src\database\Inicializador.java src\model\Musica.java src\view\MenuPrincipal.java 
+
 java -cp ".;lib\sqlite-jdbc-3.50.3.0.jar;src" view.MenuPrincipal
 
 #### Com compilador
