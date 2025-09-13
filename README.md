@@ -1,4 +1,4 @@
-# Teste para a dti digital - Gerenciador de músicas.
+# Sistema gerenciador de músicas.
 
 **Nome:** Bruno Soares Jordão Lopes  
 **E-mail:** [brunosoareslopes13@gmail.com]  
